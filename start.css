@@ -426,6 +426,7 @@ nav > a{
     padding-left:40px;
     padding-right: 40px;
     padding-top: 44em;
+    padding-bottom: 30px;
 }
 
 .boxy{
@@ -468,24 +469,25 @@ nav > a{
 @media (max-width: 425px){
     .imglady{
         background-repeat: no-repeat;
-        padding-left:5px;
-        padding-right: 0px;
-        padding-top: 73em;
+        padding-left:0px;
+        padding-right: 1px;
+        padding-top: 78em;
+        padding-bottom: 30px;
     }
     
     .boxy{
         position:absolute;
-        top:126em;
-        left: 80px;
-        width: 400px;
-        height: 260px;
+        top:105em;
+        left: 0px;
+        width: 422px;
+        height: 221px;
         background-color: white;
         border: 1px solid grey;
     }
     
     .innerboxy{
         padding-left:15px;
-        padding-top:50px;
+        padding-top:32px;
     }
     
     .hrnew{
