@@ -242,20 +242,20 @@ nav > a{
     
     .icon{ 
         padding-left: 30px;
-        position:absolute;
-        left: 44px;
-        top: 87em
+        position: absolute;
+        left: 17px;
+        top: 41em;
     }
     
     .texticon{
-        position:absolute;
-        left: 192px;
-        top: 87em;
+        position: absolute;
+        left: 161px;
+        top: 41em;
     }
     
     .icon2{
         position:absolute;
-        left: 76px;
+        left: 17px;
         top: 92em;
     
     }
@@ -263,38 +263,38 @@ nav > a{
     .texticon2{
         padding-left: 30px;
         position:absolute;
-        left: 163px;
+        left: 161px;
         top:92em;
     }
     
     .icon3{
         position:absolute;
-        left: 76px;
+        left: 17px;
         top: 99em;
     }
     
     .texticon3{
         padding-left: 30px;
         position:absolute;
-        left: 163px;
+        left: 161px;
         top:99em;
     }
     
     .icon4{
         position:absolute;
-        left: 76px;
+        left: 17px;
         top: 106em;
     }
     
     .texticon4{
         padding-left: 30px;
         position:absolute;
-        left: 163px;
+        left: 161px;
         top:106em;
     }
     .icon5{
         position:absolute;
-        left: 76px;
+        left: 161px;
         top: 113em;
     }
     
