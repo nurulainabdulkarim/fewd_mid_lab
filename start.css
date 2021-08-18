@@ -512,3 +512,23 @@ nav > a{
         color: rgb(9, 111, 123);
     }
 }
+
+/* -----------------------BOTTOM CONTENT---------------------- */
+
+.header2{
+    font-weight: bold;
+    font-size: 30px;
+    text-align:center;
+}
+
+.griddy{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    padding-left:30px;
+    padding-top:50px;
+    padding-bottom:50px;
+}
+
+.griddy img{
+    padding-left:150px;
+}
