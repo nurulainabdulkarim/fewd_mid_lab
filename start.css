@@ -40,6 +40,9 @@ body{
 .hidenavbar{
     display:contents;
 }
+.hide{
+    display: none;
+}
 
 
 @media (max-width: 425px){
@@ -80,6 +83,16 @@ body{
 
     .hidenavbar{
         display: none;
+    }
+    .hide{
+        display: contents;
+        text-decoration: none;
+    }
+    .fas {
+        width:30px;
+        color: black;
+        size: 3px;
+        cursor: pointer;
     }
 }
 /* -----------------------MAIN CONTENT(COVER)---------------------- */
