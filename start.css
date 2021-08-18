@@ -156,7 +156,9 @@ body{
     font-weight: bold;
     font-size: 30px;
     text-align:center;
+    margin: 5px;
 }
+
 
 .twoimg{
     display: none;
@@ -179,17 +181,19 @@ body{
     padding-left: 30px;
     position:absolute;
     left: 50px;
+    top:88em;
 }
 
 .texticon{
     position:absolute;
     left: 200px;
+    top:88em;
 }
 
 .icon2{
     position:absolute;
     left: 76px;
-    top: 92em;
+    top: 95em;
 
 }
 
@@ -197,45 +201,45 @@ body{
     padding-left: 30px;
     position:absolute;
     left: 163px;
-    top:92em;
+    top:95em;
 }
 
 .icon3{
     position:absolute;
     left: 76px;
-    top: 99em;
+    top: 103em;
 }
 
 .texticon3{
     padding-left: 30px;
     position:absolute;
     left: 163px;
-    top:99em;
+    top:103em;
 }
 
 .icon4{
     position:absolute;
     left: 76px;
-    top: 106em;
+    top: 111em;
 }
 
 .texticon4{
     padding-left: 30px;
     position:absolute;
     left: 163px;
-    top:106em;
+    top:111em;
 }
 .icon5{
     position:absolute;
     left: 76px;
-    top: 113em;
+    top: 118em;
 }
 
 .texticon5{
     padding-left: 30px;
     position:absolute;
     left: 163px;
-    top:113em;
+    top:118em;
 }
 @media (max-width: 425px){
     .header1{
@@ -336,7 +340,8 @@ body{
 
 .secondgrid{
     position: absolute;
-    right: 30px;
+    right: 90px;
+    top: 90em;
 }
 
 .box{
@@ -651,4 +656,56 @@ body{
     padding-left:89px;
 }
 
-
+@media (max-width: 425px){
+    .modal{
+        display:none;
+        position: fixed;
+        width:100%;
+        height:100%;
+        overflow:auto;
+        left:0;
+        top:0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 1;
+    }
+    
+    .modal_content{
+        background-color: white;
+        width:500px;
+        position: absolute;
+        left:30em;
+        top: 16em;
+        padding: 15px 20px;
+        border:3px solid rgb(69, 155, 69);
+    
+    }
+    
+    .close{
+        font-size:35px;
+        color:rgb(106, 103, 90);
+        float:right;
+    }
+    .close:hover , .close:focus{
+        cursor: pointer;
+        color:black;
+    }
+    
+    .font{
+        color:rgb(11, 19, 19);
+    }
+    
+    .continue_btn{
+        border: 1px solid rgb(15, 75, 15);
+        background-color: rgb(69, 155, 69);
+        color:white;
+        font-weight: bold;
+        padding: 10px 100px;
+        font-size:medium;
+        cursor: pointer;
+    }
+    
+    .setting_btn{
+        padding-left:89px;
+    }
+    
+}
