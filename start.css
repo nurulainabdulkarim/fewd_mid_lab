@@ -60,9 +60,9 @@ body{
     
     .flex > nav {
         display: flex;
-        gap: 5px;
+        gap: 19px;
         position: absolute;
-        left: 56px;
+        left: 59px;
         top: 13px;
     }
     
@@ -391,9 +391,9 @@ body{
     }
     .secondgrid{
         position: absolute;
-        right: 57px;
+        right: 17px;
         top:  80em;
-        width: 300px;
+        width: 389px;
     }
     
     .box{
@@ -438,7 +438,7 @@ body{
     }
     
     .belowtext{
-        width: 298px;
+        width: 443px;
     }
     
     .a{
