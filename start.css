@@ -26,11 +26,21 @@ body{
     top: 30px;
 }
 
-nav > a{
+.hidenavbar > a{
     text-decoration: none;
     color:black;
     font-weight: bold;
 }
+
+.anything > a{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+.hidenavbar{
+    display:contents;
+}
+
 
 @media (max-width: 425px){
 
@@ -66,6 +76,10 @@ nav > a{
         color:black;
         font-weight: bold;
         font-size:10px;
+    }
+
+    .hidenavbar{
+        display: none;
     }
 }
 /* -----------------------MAIN CONTENT(COVER)---------------------- */
@@ -554,8 +568,9 @@ nav > a{
     }
     .bottom{
         position:absolute;
-        left: 112px;
+        left: 111px;
         top: 138em;
+        width: 259px;
     }
     .bottom2{
         position:absolute;
