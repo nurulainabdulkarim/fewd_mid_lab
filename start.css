@@ -209,7 +209,6 @@ nav > a{
     left: 163px;
     top:113em;
 }
-
 @media (max-width: 425px){
     .header1{
         font-weight: bold;
@@ -227,18 +226,18 @@ nav > a{
         gap: 20px;
     }
     
-    .grid{
+    /* .grid{
         display: grid;
         grid-template-columns: repeat(2,1fr);
-    }
-    
+    } */
+/*     
     .innergrid{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         grid-template-rows: repeat(6,1fr);
         width: 100px;
         background-color: honeydew;
-    }
+    } */
     
     .icon{ 
         padding-left: 30px;
@@ -249,63 +248,61 @@ nav > a{
     
     .texticon{
         position: absolute;
-        left: 161px;
+        left: 159px;
         top: 41em;
     }
     
     .icon2{
-        position:absolute;
-        left: 17px;
-        top: 92em;
-    
+        position: absolute;
+        left: 42px;
+        top: 48em;
     }
     
     .texticon2{
         padding-left: 30px;
-        position:absolute;
-        left: 161px;
-        top:92em;
+        position: absolute;
+        left: 124px;
+        top: 48em;
     }
     
     .icon3{
         position:absolute;
-        left: 17px;
-        top: 99em;
+        left: 34px;
+        top: 55em;
     }
     
     .texticon3{
         padding-left: 30px;
         position:absolute;
-        left: 161px;
-        top:99em;
+        left: 124px;
+        top:55em;
     }
     
     .icon4{
         position:absolute;
-        left: 17px;
-        top: 106em;
+        left: 26px;
+        top: 62em;
     }
     
     .texticon4{
         padding-left: 30px;
         position:absolute;
-        left: 161px;
-        top:106em;
+        left: 124px;
+        top:62em;
     }
     .icon5{
         position:absolute;
-        left: 161px;
-        top: 113em;
+        left: 34px;
+        top: 70em;
     }
     
     .texticon5{
         padding-left: 30px;
         position:absolute;
-        left: 163px;
-        top:113em;
+        left: 124px;
+        top:70em;
     }
 }
-
 
 /*=========================SECOND GRID==========================*/
 
@@ -367,8 +364,9 @@ nav > a{
     }
     .secondgrid{
         position: absolute;
-        right: 30px;
-        top:  121em;
+        right: 59px;
+        top:  80em;
+        width: 300px;
     }
     
     .box{
@@ -389,7 +387,7 @@ nav > a{
         background-color: rgb(69, 155, 69);
         color:white;
         font-weight: bold;
-        padding: 10px 50px;
+        padding: 10px 24px;
         font-size:medium;
     }
     
@@ -407,10 +405,13 @@ nav > a{
     .shield{
         width: 10%;
         height: 45px;
+        position: absolute;
+        left: 8px;
+        top: 15px;
     }
     
     .belowtext{
-        width: 446px;
+        width: 298px;
     }
     
     .a{
