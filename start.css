@@ -4,7 +4,12 @@ body{
 }
 
 /* ---------------------HEADER--------------------- */
-
+.logo img{
+    position: absolute;
+    top:8px;
+    left:10px;
+    width:10%
+}
 #header{
     background-color: white;
     height:65px;
