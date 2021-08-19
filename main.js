@@ -45,7 +45,13 @@ document.querySelector(".header1");
 console.log("Dog services")
 
 // * 2) Change the title of the page to "We're the CAT People"
-// document.querySelector(".catpeople").innerHTML ="We're The Cat People";
+
+function news(){
+    document.querySelector(".catpeople").innerHTML ="We're The Cat People";
+}
+function changetextback(){
+    document.querySelector(".catpeople").innerHTML ="We're The Dog People";
+}
 
 // * 3) Change the main image to be something cat related.
 
