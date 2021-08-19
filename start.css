@@ -152,6 +152,8 @@ body{
 .newbutton{
     font-size: 15px;
     font-weight: bold;
+    background-color: rgb(90, 179, 90);
+    color:white;
 }
 .newcover{
     font-size: 15px;
@@ -197,6 +199,8 @@ body{
     .newbutton{
         font-size: 10px;
         font-weight: bold;
+        background-color: rgb(90, 179, 90);
+        color:white;
     }
     .buttonarea{
         position:absolute;
