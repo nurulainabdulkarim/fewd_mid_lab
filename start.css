@@ -141,6 +141,8 @@ body{
     top:396px;
     font-size:30px;
     color: black;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(43, 151, 79);
 }
 
 .catpeople h1{
@@ -153,19 +155,19 @@ body{
     font-size: 15px;
     font-weight: bold;
     background-color: rgb(90, 179, 90);
-    color:white;
+    color:black;
 }
 .newcover{
     font-size: 15px;
     width: 154px;
     background-color: rgb(58, 155, 58);
-    color:white;
+    color:black;
 }
 
 .btn{
     border: 1px solid black;
     background-color: rgb(69, 155, 69);
-    color:white;
+    color:black;
     font-weight: bold;
     padding: 10px 200px;
     font-size:medium;
@@ -178,6 +180,7 @@ body{
         height:100%;
         width:100%;
     }
+
     
     .container{
         width:27em;
@@ -186,6 +189,9 @@ body{
         top:106px;
         font-size:12px;
         color: black;
+        -webkit-text-stroke-width: 0.5px;
+        -webkit-text-stroke-color: rgb(43, 151, 79);
+ 
     }
     .myImg:hover{
         cursor: pointer;
@@ -200,7 +206,7 @@ body{
         font-size: 10px;
         font-weight: bold;
         background-color: rgb(90, 179, 90);
-        color:white;
+        color:black;
     }
     .buttonarea{
         position:absolute;
@@ -212,14 +218,14 @@ body{
         font-size: 8px;
     width: 73px;
     background-color: rgb(58, 155, 58);
-    color:white;
+    color:black;
     }
     
     
     .btn{
         border: 1px solid black;
         background-color: rgb(69, 155, 69);
-        color:white;
+        color:black;
         font-weight: bold;
         padding: 10px 50px;
         font-size:15px;
