@@ -120,7 +120,11 @@ body{
     background-color: rgb(59, 138, 59);
     color: white;
     padding: 10px 20px;
-
+}
+.press1{
+    background-color: rgb(59, 138, 59);
+    color: white;
+    padding: 10px 20px;
 }
 
 .buttonarea{
@@ -175,10 +179,36 @@ body{
         width:22em;
         padding-left: 30px;
         position: absolute;
-        top:107px;
+        top:79px;
         font-size:12px;
         color: black;
     }
+
+    .buttonarea{
+        text-align: center;
+        padding-bottom: 10px;
+        gap: 10px;
+        position:absolute;
+        display:flex;
+        padding-left: 105px;
+    }
+    .press{
+        background-color: rgb(59, 138, 59);
+        color: white;
+        padding: 4px 0px;
+        width: 106px;
+        font-size: 9px;
+    }
+    }
+    .press1{
+        background-color: rgb(59, 138, 59);
+        color: white;
+        padding: 4px 0px;
+        width: 106px;
+        font-size: 9px;
+    }
+    }
+
     .myImg:hover{
         cursor: pointer;
     }

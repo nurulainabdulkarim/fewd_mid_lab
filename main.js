@@ -38,14 +38,14 @@
 //     }
 // }
 
-// ---------------------HOMEWORK START HERE-----------------------
+// ---------------------MID LAB PROJECT START HERE-----------------------
 // * Easiest
 // * 1) Get the title for each dog/cat services, and put them into the console using console.log
 document.querySelector(".header1");
 console.log("Dog services")
 
 // * 2) Change the title of the page to "We're the CAT People"
-document.querySelector(".catpeople").innerHTML ="We're The Cat People";
+// document.querySelector(".catpeople").innerHTML ="We're The Cat People";
 
 // * 3) Change the main image to be something cat related.
 
