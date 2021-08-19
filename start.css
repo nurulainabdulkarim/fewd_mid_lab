@@ -116,6 +116,19 @@ body{
     width:100%;
 }
 
+.press{
+    background-color: rgb(59, 138, 59);
+    color: white;
+    padding: 10px 20px;
+
+}
+
+.buttonarea{
+    text-align: center;
+    padding-bottom: 10px;
+    gap: 30px;
+}
+
 .myImg{
     background-size: cover;
     background-repeat: no-repeat;

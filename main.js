@@ -75,11 +75,12 @@ var img = document.querySelector(".myImg");
 
 function dog(){
     img.src="img/hero.jpg";
-
 }
 function rabbit(){
     img.src="img/girl-with-rabbit.jpg";
-    }
+}
+
+
 // * 3) When someone clicks the "Book your next Rover sitter" button, change the text of the button to say "Thanks"
 let defaultbutton = document.querySelector('.btn2')
 
