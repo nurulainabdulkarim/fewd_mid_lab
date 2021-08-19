@@ -67,10 +67,33 @@ function cat(){
 // * Harder
 // * 1) Replace the call to action button background color with "red"
  let bookbutton = document.querySelector(".btn2")
- bookbutton.addEventListener('click', () => bookbutton.style.backgroundColor='red')
+ bookbutton.addEventListener('click', () => bookbutton.style.backgroundColor='red' )
 
 // * 2) Find another image and replace the header (try unsplash.com, get familiar with searching for images)
+
 // * 3) When someone clicks the "Book your next Rover sitter" button, change the text of the button to say "Thanks"
+let defaultbutton = document.querySelector('.btn2')
+// document.querySelector(".btn2").innerHTML ="Thanks";
+
+
+let default_text = 'book'
+function tochange(){
+    let button = document.querySelector('.btn2');
+    if (default_text == 'book'){
+        document.querySelector(".btn2").innerHTML ="Thanks";
+    }else{
+        document.querySelector('.btn2')
+    }
+}
+
+
+
+
+// button
+// function tochange(){
+//     let button = document.querySelector('.btn2');
+//     if 
+// }
 // * 
 // * 
 // * Hardest (only if you get the others first)
