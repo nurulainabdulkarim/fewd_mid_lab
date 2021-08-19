@@ -37,6 +37,12 @@ body{
     font-weight: bold;
 }
 
+.signup{
+    text-decoration: none;
+    color:black;
+    font-weight: bold;
+}
+
 .anything > a{
     text-decoration: none;
     color:black;
@@ -131,7 +137,7 @@ body{
 }
 
 .catpeople{
-    font-size: 44px;
+    font-size: 53px;
     font-weight: bold;
 }
 
@@ -165,7 +171,7 @@ body{
     }
 
     .catpeople{
-        font-size: 14px;
+        font-size: 21px;
         font-weight: bold;
     }
     
