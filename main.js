@@ -61,6 +61,7 @@ function changetextback(){
 let image_tracker = 'dog'
 function cat(){
     var image = document.querySelector(".myImg");
+
     if (image_tracker =='dog'){
         image.src = "img/cat and woman.jpg";
         image_tracker ='cat'
