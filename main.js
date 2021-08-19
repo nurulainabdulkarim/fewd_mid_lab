@@ -53,6 +53,14 @@ function changetextback(){
     document.querySelector(".catpeople").innerHTML ="We're The Dog People";
 }
 
+document.onreadystatechange = function () {
+    if (document.readyState == "complete") {
+     var tukar = document.querySelector(".catpeople");
+     var now = tukar.fontsize(500);
+     document.querySelector(".catpeople").innerHTML ="We're The Cat People";
+   }
+  }
+
 // * 3) Change the main image to be something cat related.
 
 let image_tracker = 'dog'
