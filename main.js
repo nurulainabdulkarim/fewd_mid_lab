@@ -45,21 +45,16 @@ document.querySelector(".header1");
 console.log("Dog services")
 
 // * 2) Change the title of the page to "We're the CAT People"
-
+//mobile
 function news(){
-    document.querySelector(".catpeople").innerHTML ="We're The Cat People";
+    document.querySelector(".catpeople").innerHTML ="<font size='7'><b>We're The Cat People</b></font>";
 }
 function changetextback(){
-    document.querySelector(".catpeople").innerHTML ="We're The Dog People";
+    document.querySelector(".catpeople").innerHTML ="<font size='7'><b>We're The Dog People</b></font>";
 }
 
-document.onreadystatechange = function () {
-    if (document.readyState == "complete") {
-     var tukar = document.querySelector(".catpeople");
-     var now = tukar.fontsize(500);
-     document.querySelector(".catpeople").innerHTML ="We're The Cat People";
-   }
-  }
+
+
 
 // * 3) Change the main image to be something cat related.
 

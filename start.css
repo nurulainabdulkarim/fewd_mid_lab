@@ -144,8 +144,9 @@ body{
 }
 
 .catpeople h1{
-    font-size: 39px;
+    font-size: 48px;
     font-weight: bold;
+    margin:0;
 }
 
 .newbutton{
@@ -177,10 +178,10 @@ body{
     }
     
     .container{
-        width:22em;
+        width:27em;
         padding-left: 30px;
         position: absolute;
-        top:97px;
+        top:106px;
         font-size:12px;
         color: black;
     }
@@ -189,8 +190,9 @@ body{
     }
   
     .catpeople h1{
-        font-size: 25px;
+        font-size: 47px;
         font-weight: bold;
+        margin:0;
     }
     .newbutton{
         font-size: 10px;
